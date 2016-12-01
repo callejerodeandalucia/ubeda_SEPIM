@@ -6,11 +6,12 @@ body,
   margin: 0;
   padding: 0;
 }
-.ui-page,
+/*.ui-page,
 .ui-page * {
-  -webkit-box-sizing: inherit;
-     -moz-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: border-box;
+}*/
+#mapa, #mapa * {
+  box-sizing: border-box;
 }
 #inicio .ui-header .ui-title{
   margin: 0 5% !important;
@@ -22,7 +23,7 @@ body,
 /****/
 li>a.ui-btn{
     white-space: normal !important;
-    font-size: 14px !important; 
+    font-size: 14px !important;
 }
 .listaDistancia {
   margin-right: 3em !important;
@@ -40,6 +41,18 @@ li>a.ui-btn{
 td.value{
   white-space: normal!important;
 }
+.m-popup-closer:after {
+    content: "\e915"!important;
+}
+.m-popup.m-collapsed .m-popup-closer:after {
+    content: "\e917"!important;
+}
+.m-popup>div.m-content {
+    text-align: left!important;
+}
+.m-popup>div.m-content>div.m-body{
+  margin-top: auto!important;
+}
 .m-wmcselector-container{
-  height: 21px!important;
+   height: 21px!important;
 }

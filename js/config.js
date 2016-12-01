@@ -1,7 +1,6 @@
 //******** configuración **********************//
 url = "http://www.callejerodeandalucia.es/sepim/api";
 urlGB = ""; //JGL - vacío si no tiene GB
-
 idAplicacion = 144; //id de la aplicación
 //*********************************************//
 aplicacion = null;
@@ -17,4 +16,4 @@ showDistance = false; //JGL - indica si mostrar la distancia o no en la búsqued
 gbRows = 150;
 M.proxy(false);
 attrNotShow = [ "the_geom", "geom", "_version_", "solrid", "keywords", "equipamiento"];
-window.isApp 	= /^(?!HTTP)/.test(document.URL.toUpperCase()); 
+window.isApp 	= /^(?!HTTP)/.test(document.URL.toUpperCase());
